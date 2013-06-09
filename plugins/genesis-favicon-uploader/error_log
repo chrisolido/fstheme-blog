@@ -1,0 +1,1 @@
+[17-Dec-2012 14:19:41] PHP Fatal error:  Call to undefined function  register_activation_hook() in /home/fblog/public_html/blog/wp-content/plugins/genesis-favicon-uploader/genesis-favicon-uploader.php on line 11

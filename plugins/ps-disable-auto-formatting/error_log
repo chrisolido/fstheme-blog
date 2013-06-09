@@ -1,0 +1,1 @@
+[17-Dec-2012 14:19:26] PHP Fatal error:  Call to undefined function  add_action() in /home/fblog/public_html/blog/wp-content/plugins/ps-disable-auto-formatting/ps_disable_auto_formatting.php on line 34
