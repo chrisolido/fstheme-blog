@@ -1,0 +1,185 @@
+/*
+Theme Name:     fs_blog
+Description:    The Theme Designed for Friendster Blog.
+Author:         Friendster Administrator
+Template:       twentyeleven
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../twentyeleven/style.css");
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	text-shadow: 0 1px #FFFFFF;
+}
+
+html, body {
+	min-width: 1000px;
+	padding: 0px;
+}
+
+#page {
+	margin: 50px auto 20px auto;
+	width: 1000px;
+}
+
+body, input, textarea {
+	color: #444444;
+}
+
+a {
+	color: #00a933;
+	text-decoration: none;
+}
+a:hover {
+	color: #22CB55;
+}
+
+
+#page {
+	/* background: none; */
+}
+
+#branding {
+	border-top: none;
+}
+
+.entry-header .entry-meta {
+	padding: 5px 76px 0 0;
+	color: #666;
+}
+
+.entry-title {
+	color: #444444;
+	border-bottom: dotted 1px #d3d3d3; 
+}
+
+
+
+.entry-meta {
+	color: #828282;
+	clear: both;
+	font-size: 10px;
+	line-height: 18px;
+}
+
+.entry-title {
+	clear: both;
+	color: #444444;
+	font-size: 26px;
+	font-weight: bold;
+	line-height: 1.5em;
+	padding-bottom: .3em;
+	padding-top: 15px;
+}
+
+.entry-title a {
+	color: #00a933;
+	text-decoration: none;
+}
+.entry-title a:hover {
+	color: #22CB55;
+}
+
+
+
+.entry-header .comments-link a {
+	background: #E8E8E8;
+	border: solid 1px #BEBEBE;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #666;
+	font-size: 12px; /* font-size: 13px; */
+	font-weight: normal;
+	line-height: 30px;
+	overflow: hidden;
+	padding: 0 0 0;
+	position: absolute;
+	top: 1.5em;
+	right: 0;
+	text-align: center;
+	text-decoration: none;
+	width: 35px;
+	height: 30px;
+}
+
+
+.entry-header .comments-link a:active {
+	background-color: #76c2dc;
+	border: solid 1px #6EB8D1;
+	color: #fff;
+	color: rgba(255,255,255,0.8);
+}
+
+.hentry, .no-results {
+	border-bottom: none;
+}
+
+.widget-title {
+	color: #5081A0;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+#site-generator {
+	background: none;
+	border-top: none;
+	color: inherit;
+	font-size: 12px;
+	line-height: 2.2em;
+	text-align: center;
+}
+
+.footer_links {
+	font-size: 0.85em;
+	text-align: left;
+	color: #999;
+	padding: 50px 0px 20px 0px;
+	margin: 0 34% 0 7.6%;
+}
+.footer_links ul, footer_links ul li {
+	padding: 0;
+	margin: 0;
+}
+.footer_links ul li {
+	line-height: 1em;
+	height: 1em;
+	display: inline-block;
+	padding: 0 9px 0 11px;
+	border-left: 1px solid #BBB;
+}
+.footer_links ul li:first-child {
+	border-left: none;
+	padding-left: 0px;
+}
+.footer_links ul li a {
+	color: #999;
+}
+.footer_links .copyright {
+	font-size: 11px;
+}
+#site-generator {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+#friendster-link {
+	font-size: 1.5em;
+	display: block;
+	padding: 10px 0;
+	border-style: dotted;
+	border-width: 1px 0;
+	border-color: lightGrey;
+	margin-bottom: 20px;
+}
